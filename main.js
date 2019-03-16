@@ -29,6 +29,7 @@ download.onclick = function(){
   a.download = '我的画儿'
   a.target = '_blank'
   a.click()
+  document.body.removeChild(a)
 }
 
 
